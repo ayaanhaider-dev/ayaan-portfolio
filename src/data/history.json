@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Freelance",
+    "organisation": "Fiver",
+    "startDate": "Jun, 2022",
+    "endDate": "Present",
+    "experiences": [
+      "React & Flutter dev on Fiverr",
+      "Building platform apps with React/Flutter."
+    ],
+    "imageSrc": "history/fiverr.png"
+  },
+  {
+    "role": "Freelance",
+    "organisation": "Mirosoft",
+    "startDate": "Jun, 2022",
+    "endDate": "Present",
+    "experiences": [
+      "Crafting Web Apps with React.",
+      "Flutter expert on Upwork"
+    ],
+    "imageSrc": "history/upwork.png"
+  },
+  {
+    "role": "Mobile Developer",
+    "organisation": "Turing",
+    "startDate": "Oct, 2023",
+    "endDate": "Present",
+    "experiences": [
+      "Mobile Developer at Turing",
+      "Building apps with Flutter"
+    ],
+    "imageSrc": "history/turing.png"
+  }
+]

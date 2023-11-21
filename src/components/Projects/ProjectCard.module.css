@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+  box-shadow: 0 8px 10px 0 rgba(4, 21, 45, 0.5);
+  padding: 20px;
+  max-width: 345px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 16px 14px 0 rgba(4, 21, 45, 0.7);
+}
+
+.image {
+  border-radius: 5px; /* Rounded corners for images */
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--color-light); /* Ensuring readability */
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+  list-style: none;
+}
+
+.skill {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 15px;
+  background: var(--color-dark);
+  padding: 5px 15px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 15px;
+  background: var(--color-primary);
+  padding: 5px 15px;
+  transition: background-color 0.3s;
+}
+
+.link:hover {
+  background-color: var(--color-primary-dark); /* Darker shade on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .container,
+  .projects {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+
+  .project-card-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .title,
+  .description,
+  .skill,
+  .link {
+    font-size: 16px;
+  }
+}
